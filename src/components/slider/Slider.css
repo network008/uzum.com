@@ -1,0 +1,22 @@
+.slider__container .mySwiper {
+    border-radius: 16px;
+    height: 450px;
+}
+
+.slider__container .mySwiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+    .slider__container .mySwiper {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider__container .mySwiper {
+        height: 220px;
+    }
+}
